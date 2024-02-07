@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+.main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    /* height: 100vh; */
+    max-width: 700px;
+    margin: auto;
+    height: auto;
+
+}
+
+.red{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+    position: relative;
+    z-index: 50;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+@media(max-width: 600px){
+    .red{
+        padding-bottom: 3.5rem;
+    }
+}
+@media(max-width: 500px){
+    .red{
+        padding-bottom: 2.7rem;
+    }
+}
+@media(max-width: 400px){
+    .red{
+        padding-bottom: 2rem;
+    }
+}
+@media(max-width: 300px){
+    .red{
+        padding-bottom: 1.5;
+    }
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: 9.5rem;
+    max-width: 700px;
+}
+@media(max-width: 500px){
+    .photo{
+        top: 8.5rem;
+    }
+}
+@media(max-width: 400px){
+    .photo{
+        top: 7.5rem;
+    }
+}
+
+img {
+    height: auto;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 9px 9px 20px grey;
+    aspect-ratio: 1;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .border{
+    background-color: white;
+    height: 20%;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 5px 10px gray;
+} */
+
+.white{
+    height: 70%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    position: relative;
+    z-index: 50;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+/* CSS FOR WHITE */
+@media(max-width: 600px){
+    .white{
+        padding-top: 7rem;
+    }
+}
+@media(max-width: 500px){
+    .white{
+        padding-top: 5rem;
+    }
+}
+@media(max-width: 400px){
+    .white{
+        padding-top: 4rem;
+    }
+}
+@media(max-width: 300px){
+    .white{
+        padding-top: 2rem;
+    }
+}
+
+
+/* CSS FOR NAME */
+@media(min-width: 700px){
+    .name{
+        font-size: 20px;
+    }
+}
+@media(max-width: 600px){
+    .name{
+        font-size: 20px;
+    }
+}
+@media(max-width: 500px){
+    .name{
+        font-size: 18px;
+    }
+}
+@media(max-width: 400px){
+    .name{
+        font-size: 16px;
+    }
+}
+@media(max-width: 300px){
+    .name{
+        font-size: 12px;
+    }
+}
+
+
+/* CSS FOR WE */
+@media(max-width: 600px){
+    .we{
+        font-size: 18px;
+    }
+}
+@media(max-width: 500px){
+    .we{
+        font-size: 16px;
+    }
+}
+@media(max-width: 400px){
+    .we{
+        font-size: 14px;
+    }
+}
+@media(max-width: 300px){
+    .we{
+        font-size: 10px;
+    }
+}
+
+.gray{
+    text-align: center;
+    text-decoration-color: gray;
+    opacity: 0.4;
+}
+
+/* .we{
+    margin: 10px;
+    font-size: 1.2rem;
+} */
+
+.botton{
+    width: 50%;
+    height: auto;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 6px 6px 15px grey;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    /* white-space: nowrap; */
+}
+
+.inq{
+    text-decoration: none;
+    color: white;
+}
+.botton:hover{
+    background-color: #b51021;
+}
+
+@media(max-width: 510px){
+    .botton{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width: 410px){
+    .botton{
+        font-size: 1.1rem;
+    }
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    font-size: 1.3rem;
+    text-decoration-color: gray;
+    opacity: 0.7;
+}
+
+.info{
+    text-align: justify;
+}
+
+@media(min-width: 700px){
+    .info{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 500px){
+    .info{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+@media(max-width: 400px){
+    .info{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+@media(max-width: 300px){
+    .info{
+        padding-right: 15px;
+        padding-left: 15px;
+    } 
+}
+    
+.link{
+    bottom: 0px;
+    background-color: #eef;
+    width: 100%;
+    max-width: 700px;
+    height: 3rem;
+    padding-top: 10px;
+    /* display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    flex-shrink: 1; */
+}
+
+.btn-1{
+    width: 25%;
+    /* background-color: #24d627;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px gray; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+    float: left;
+    text-align: center;
+}
+
+.btn-2{
+    width: 25%;
+    /* background-color: #de167a;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px gray; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+    float: left;
+    text-align: center;
+}
+
+.btn-3{
+    width: 25%;
+    /* background-color: #ed0d09;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px gray; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+    float: left;
+    text-align: center;
+}
+
+.btn-4{
+    width: 25%;
+    /* background-color: #1a30c4;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px gray; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+    float: left;
+    text-align: center;
+}
+
+@media(max-width: 600px){
+    .btn-1,.btn-2,.btn-3,.btn-4{
+        font-size: 2.1rem;;
+    }
+}
+@media(max-width: 500px){
+    .btn-1,.btn-2,.btn-3,.btn-4{
+        font-size: 2rem;;
+    }
+}
+@media(max-width: 400px){
+    .btn-1,.btn-2,.btn-3,.btn-4{
+        font-size: 1.9rem;;
+    }
+}
+
+h4{
+    margin-top: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+h1{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.9rem;
+}
+
+@media(max-width: 600px){
+    h1{
+        font-size: 2.6rem;;
+    }
+}
+@media(max-width: 500px){
+    h1{
+        font-size: 2.3rem;;
+    }
+}
+@media(max-width: 400px){
+    h1{
+        font-size: 2rem;;
+    }
+}
+@media(max-width: 300px){
+    h1{
+        font-size: 1.7rem;;
+    }
+}
+
+i{
+    color: red;
+}
